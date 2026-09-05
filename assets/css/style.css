@@ -163,9 +163,19 @@ a:focus {
 }
 
 /* ---------- Top banner: logo strip, team photo, intro blurb ---------- */
-.banner-logo {
+.banner-wrap {
   width: 100%;
-  height: auto;
+  height: 2in;
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.banner-logo {
+  height: 100%;
+  width: auto;
   display: block;
 }
 
