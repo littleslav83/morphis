@@ -155,6 +155,12 @@ a:focus {
   color: #fff !important;
 }
 
+.nav-badge {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
 /* ---------- Intro banner: team photo + description ---------- */
 .intro-banner {
   background: var(--color-bg-alt);
