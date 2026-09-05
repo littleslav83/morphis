@@ -156,8 +156,9 @@ a:focus {
 }
 
 .nav-badge {
-  height: 56px;
-  width: auto;
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
   display: block;
 }
 
