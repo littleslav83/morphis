@@ -4,17 +4,17 @@
    ========================================================================== */
 
 :root {
-  --color-primary: #2f6f5e;      /* deep teal-green */
-  --color-primary-dark: #234f42;
-  --color-accent: #e8a13c;       /* warm amber accent */
-  --color-bg: #fbf9f4;           /* warm off-white */
-  --color-bg-alt: #f0ece1;
-  --color-text: #29332f;
-  --color-text-muted: #5b6864;
-  --color-border: #e0dccf;
+  --color-primary: #5c3a24;      /* dark walnut brown, like the office trim */
+  --color-primary-dark: #3a2415;
+  --color-accent: #b3814c;       /* warm oak accent */
+  --color-bg: #ffffff;           /* white walls */
+  --color-bg-alt: #f5f0e8;       /* soft warm off-white for alt sections */
+  --color-text: #2a2019;
+  --color-text-muted: #6b5c4e;
+  --color-border: #e3dcd0;
   --max-width: 1100px;
   --radius: 10px;
-  --shadow: 0 2px 10px rgba(41, 51, 47, 0.08);
+  --shadow: 0 2px 10px rgba(42, 32, 25, 0.1);
 }
 
 * {
