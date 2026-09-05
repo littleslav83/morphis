@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Morphis Veterinary Services, Inc.</title>
+<meta name="description" content="Contact Morphis Veterinary Services, Inc. -- address, phone, hours, and location.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <nav class="nav-bar" aria-label="Primary">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">🐾</span>
+      Morphis Veterinary Services, Inc.
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <!-- EDIT: replace with the real Facebook Page URL -->
+    <a class="nav-fb-link" href="https://www.facebook.com/MorphisVet" target="_blank" rel="noopener">
+      Facebook ↗
+    </a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>
+        Call, email, or send a message on Facebook -- whichever is
+        easiest for you.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container two-col">
+      <div>
+        <h2>Get in Touch</h2>
+        <ul class="info-list">
+          <li><span>Address</span> <span>123 Main Street, Seminole, OK 74868</span></li>
+          <li><span>Phone</span> <span><a href="tel:+10000000000">(000) 000-0000</a></span></li>
+          <li><span>Email</span> <span><a href="mailto:info@morphisvet.example">info@morphisvet.example</a></span></li>
+        </ul>
+        <!-- EDIT: replace with the real address, phone, and email -->
+
+        <h2 style="margin-top:2rem;">Hours</h2>
+        <ul class="info-list">
+          <li><span>Monday - Friday</span> <span>9:00 AM - 5:00 PM</span></li>
+          <li><span>Saturday</span> <span>9:00 AM - 1:00 PM</span></li>
+          <li><span>Sunday</span> <span>Closed</span></li>
+        </ul>
+        <!-- EDIT: replace with real hours -->
+
+        <div class="placeholder">
+          Reminder: Facebook is where the most current hours, closures,
+          and holiday schedule changes get posted -- keep this page as
+          the "usual" schedule and point people to Facebook for
+          day-to-day updates.
+        </div>
+
+        <h2 style="margin-top:2rem;">Send a Message</h2>
+        <p class="section-intro">
+          This form doesn't send anywhere yet -- it's a static site, so a
+          form needs a small free service to deliver submissions to your
+          inbox (for example,
+          <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a>).
+          Sign up, then replace the <code>action</code> attribute below
+          with the endpoint they give you. Until then, feel free to
+          remove this form and just list the phone number and Facebook
+          link above.
+        </p>
+        <form action="#" method="POST">
+          <div>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Find Us</h3>
+          <!-- EDIT: replace the src below with an embed URL for your real
+               address from Google Maps: Share -> Embed a map -> copy the
+               src="..." value into this iframe. -->
+          <div class="map-wrap">
+            <iframe
+              title="Map to Morphis Veterinary Services, Inc."
+              src="https://www.google.com/maps?q=Seminole,+OK&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:1.5rem;">
+          <h3>Follow on Facebook</h3>
+          <p>
+            The quickest way to reach us for non-urgent questions, and
+            where we post the latest news.
+          </p>
+          <p>
+            <a class="btn btn-primary" href="https://www.facebook.com/MorphisVet" target="_blank" rel="noopener">
+              Message us on Facebook
+            </a>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Morphis Veterinary Services, Inc.</h3>
+      <p>
+        123 Main Street<br>
+        Seminole, OK 74868
+      </p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>
+        Phone: <a href="tel:+10000000000">(000) 000-0000</a><br>
+        Email: <a href="mailto:info@morphisvet.example">info@morphisvet.example</a>
+      </p>
+    </div>
+    <div>
+      <h3>Follow</h3>
+      <p>
+        <a href="https://www.facebook.com/MorphisVet" target="_blank" rel="noopener">
+          Facebook ↗
+        </a><br>
+        <span style="font-size:0.85rem;">
+          Follow us for the most up-to-date news, closures, and photos.
+        </span>
+      </p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; <span id="year"></span> Morphis Veterinary Services, Inc. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
