@@ -47,6 +47,16 @@ a:focus {
   color: var(--color-primary-dark);
 }
 
+/* Guaranteed, high-contrast keyboard focus indicator on every
+   interactive element. Two-tone "halo" so it stays clearly visible
+   whether the element sits on a light background or the dark footer:
+   the white ring shows up against dark surfaces, the brown ring
+   shows up against light ones. */
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px var(--color-primary);
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -193,15 +203,6 @@ a:focus {
   margin-top: 1.5rem;
 }
 
-.intro-banner .btn-outline {
-  border-color: var(--color-primary);
-  color: var(--color-primary) !important;
-}
-
-.intro-banner .btn-outline:hover {
-  background: rgba(47, 111, 94, 0.1);
-}
-
 /* ---------- Hero ---------- */
 .hero {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
@@ -265,12 +266,12 @@ a:focus {
 }
 
 .btn-outline {
-  border-color: #fff;
-  color: #fff !important;
+  border-color: var(--color-primary);
+  color: var(--color-primary) !important;
 }
 
 .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(92, 58, 36, 0.1);
 }
 
 /* ---------- Sections ---------- */
